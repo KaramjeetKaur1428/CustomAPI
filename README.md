@@ -43,8 +43,9 @@ cd student-api
 4. Server will start at: ----> http://localhost:5000
 
 ---
+---
 
-###📬 API Endpoints
+###📬 **API Endpoints**
 🔹 GET /students  : Get all student records
 Response:
 [
@@ -96,16 +97,14 @@ Response:
 
 
 🧪 Testing
-Use Postman or curl to test the endpoints.
-
+ ------>Use Postman or curl to test the endpoints.
 Sample:
 curl -X POST http://localhost:5000/students \
 -H "Content-Type: application/json" \
 -d '{"name": "Karamjeet", "age": 21, "course": "CSE"}'
-📂 Data Storage
-All student records are stored in:
 
-data.json
+📂 Data Storage
+------>All student records are stored in: data.json
 Example contents:
 [
   {
@@ -115,6 +114,24 @@ Example contents:
     "course": "CSE"
   }
 ]
+
+✅ Testing
+
+🧪 Tools Used
+Jest – for unit and integration testing
+
+Supertest – for testing Express APIs
+
+📂 Test Files
+
+----> tests/fileHandler.test.js – Unit test for reading/writing to data.json
+
+----> tests/api.test.js – API tests for GET and POST routes
+
+📋 How to Run Tests  ----> npm test
+
+![Test Coverage Screenshot](test.coverage.png)
+
 
 ✨ Author
 Created with ❤️ by Karamjeet Kaur
