@@ -121,20 +121,20 @@ Example contents:
 Jest – for unit and integration testing
 
 Supertest – for testing Express APIs
-
 📂 Test Files
 
 ----> tests/fileHandler.test.js – Unit test for reading/writing to data.json
 
 ----> tests/api.test.js – API tests for GET and POST routes
 
+---
+
 📋 How to Run Tests  ----> npm test
 
-![image alt][https://github.com/KaramjeetKaur1428/CustomAPI/blob/ad5f422deb9af48d37cc8e28992d01c804506982/test.coverage.png]
-
+https://github.com/KaramjeetKaur1428/CustomAPI/blob/main/test.coverage.png
 
 
 
 ✨ Author
 Created with ❤️ by Karamjeet Kaur
-🔗https://github.com/KaramjeetKaur1428/
+🔗https://github.com/KaramjeetKaur1428
