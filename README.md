@@ -130,9 +130,7 @@ Supertest – for testing Express APIs
 
 📋 How to Run Tests  ----> npm test
 
-### 📸 Test Coverage Screenshot
-
-![Test Coverage Screenshot](https://raw.githubusercontent.com/KaramjeetKaur1428/CustomAPI/main/test.coverage.png)
+![test coverage](https://github.com/user-attachments/assets/40afd1a3-e13c-4e98-8ce0-828e7bdbde09)
 
 
 
